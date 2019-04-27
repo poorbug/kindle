@@ -80,9 +80,9 @@ Promise 使用比较都的情况是异步请求，下面以 jQuery 的 ajax 封�
 ```
 
 ``` javascript
-var p = getAsyncPromise('http://omhr7p9e5.bkt.clouddn.com/hexo-blog/promise/1.json')
+var p = getAsyncPromise('../static/json/1.json')
 p.then((data)=>{
-	return getAsyncPromise('http://omhr7p9e5.bkt.clouddn.com/hexo-blog/promise/2.json')
+	return getAsyncPromise('../static/json/2.json')
 })
 .then((data)=>{
 	console.log(data)
@@ -181,7 +181,7 @@ Promise.all() 接受的参数为一个 `promise` 数组 `arr`，当数组里的�
 ``` javascript
 var promises = []
 for (var i=1; i<=3; i++) {
-	promises.push(getAsyncPromise('http://omhr7p9e5.bkt.clouddn.com/hexo-blog/promise/'+i+'.json'))
+	promises.push(getAsyncPromise('../static/json/'+i+'.json'))
 }
 
 Promise.all(promises)
@@ -195,7 +195,7 @@ Promise.all(promises)
 
 结果如下：
 
-![Promise.all()](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/promise/promise-all.png)
+![Promise.all()](../static/imgpromise-all.png)
 
 ### Promise.race()
 

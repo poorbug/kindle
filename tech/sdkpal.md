@@ -25,20 +25,20 @@ tags:
 6. 打开工程 `open SDLPal.xcworkspace/`
 7. 如图选中 `SDLPal` - `TARGETS` - `SDLPal` - `General`, 把 `1` 改为类似的包名，在 `2` 中把你的 `AppleID` 添加为帐号并选中
 
-	![图1](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/sdlpal/1.png)
+	![图1](../static/img/sdlpal-1.png)
 8. 手机连上 mac, 如图选中自己的手机，安装，中间提示输入密码
 
-	![图2](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/sdlpal/2.png)
-	![图3](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/sdlpal/3.png)
+	![图2](../static/img/sdlpal-2.png)
+	![图3](../static/img/sdlpal-3.png)
 9. 把资源文件拽进应用里，搞定，至于资源文件...自己找吧，或者留邮箱找我要
 
-	![图4](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/sdlpal/4.png)
-	![图5](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/sdlpal/5.png)
+	![图4](../static/img/sdlpal-4.png)
+	![图5](../static/img/sdlpal-5.png)
 
 10. 完美运行
 
-	![图6](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/sdlpal/6.png)
-	![图7](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/sdlpal/7.png)
+	![图6](../static/img/sdlpal-6.png)
+	![图7](../static/img/sdlpal-7.png)
 
 
 ## One more thing

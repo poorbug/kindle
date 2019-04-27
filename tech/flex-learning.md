@@ -23,7 +23,7 @@ Flex 布局所能实现的效果其实用其他方法也能实现，但是，很
 容器默认存在两个带方向的轴：主轴（main axis）和垂直于主轴的交叉轴（cross axis）。同时两个轴各有起点与终点。主轴与交叉轴是相对的，通过 `flex-direction` 来决定水平或者垂直的轴是主轴，同时也决定起点终点。
 
 container 的 `flex-direction` 默认为 `row`，item 默认沿主轴排列。
-![flex-direction](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/flex/flexDirection.jpg)
+![flex-direction](../static/img/flexDirection.jpg)
 
 Flex 布局一个很重要的概念是 **剩余空间** 的分配。所谓 **剩余空间**，指的是 container 的主轴尺寸在减去 item 的 **既定尺寸** 后剩余的空间。**既定尺寸** 由元素的内容、width、flex-basis 决定。
 
@@ -94,9 +94,9 @@ nowrap | 不换行
 wrap | 超出的放下一行
 wrap-reverse | wrap 的结果行倒序
 
-![flex-wrap: nowrap](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/flex/nowrap.gif)
-![flex-wrap: nowrap](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/flex/wrap.gif)
-![flex-wrap: nowrap](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/flex/wrap-reverse.gif)
+![flex-wrap: nowrap](../static/img/nowrap.gif)
+![flex-wrap: nowrap](../static/img/wrap.gif)
+![flex-wrap: nowrap](../static/img/wrap-reverse.gif)
 
 (3). **justify-content**: item 在主轴上的对齐方式
 
@@ -235,7 +235,7 @@ center | 居中
 space-between | 剩余空间均分于 行 之间
 space-around | 剩余空间均分于两边
 
-![align-content](http://omhr7p9e5.bkt.clouddn.com/hexo-blog/flex/align-content.gif)
+![align-content](../static/img/align-content.gif)
 
 (6). **flex-flow**: flex-direction & flex-wrap 的缩写
 
